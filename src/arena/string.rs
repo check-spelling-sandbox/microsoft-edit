@@ -103,7 +103,7 @@ impl<'a> ArenaString<'a> {
         self.vec.len()
     }
 
-    /// It's capacatity.
+    /// It's capacity.
     pub fn capacity(&self) -> usize {
         self.vec.capacity()
     }
