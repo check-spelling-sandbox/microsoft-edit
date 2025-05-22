@@ -98,12 +98,12 @@ impl<'a> ArenaString<'a> {
         self.vec.is_empty()
     }
 
-    /// It's lengthy.
+    /// Its lengthy.
     pub fn len(&self) -> usize {
         self.vec.len()
     }
 
-    /// It's capacity.
+    /// Its capacity.
     pub fn capacity(&self) -> usize {
         self.vec.capacity()
     }
