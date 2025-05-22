@@ -98,12 +98,12 @@ impl<'a> ArenaString<'a> {
         self.vec.is_empty()
     }
 
-    /// It's lengthy.
+    /// Its length.
     pub fn len(&self) -> usize {
         self.vec.len()
     }
 
-    /// It's capacatity.
+    /// Its capacity.
     pub fn capacity(&self) -> usize {
         self.vec.capacity()
     }
@@ -133,7 +133,7 @@ impl<'a> ArenaString<'a> {
     }
 
     /// Reserves *additional* memory. For you old folks out there (totally not me),
-    /// this is differrent from C++'s `reserve` which reserves a total size.
+    /// this is different from C++'s `reserve` which reserves a total size.
     pub fn reserve(&mut self, additional: usize) {
         self.vec.reserve(additional)
     }
