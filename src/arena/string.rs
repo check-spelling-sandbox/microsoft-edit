@@ -98,7 +98,7 @@ impl<'a> ArenaString<'a> {
         self.vec.is_empty()
     }
 
-    /// Its lengthy.
+    /// Its length.
     pub fn len(&self) -> usize {
         self.vec.len()
     }
